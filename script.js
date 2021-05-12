@@ -22,7 +22,7 @@ document.querySelector('.check').addEventListener(
         // The number is higher or lower than the correct guess
         } else if (guess !== secretNumber) {
             if (score > 1) {
-                document.querySelector('.message').textContent = guess > secretNumber ? 'This number is high, try again!': 'This number is low';
+                document.querySelector('.message').textContent = guess > secretNumber ? 'This number is high!': 'This number is low';
                 score--;
                 document.querySelector('.score').textContent = score;
             } else {
