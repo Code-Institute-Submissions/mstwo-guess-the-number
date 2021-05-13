@@ -46,5 +46,8 @@ document.querySelector('.again').addEventListener(
         document.querySelector('.score').textContent = score;
         document.querySelector('.number').textContent = '?';
         document.querySelector('.guess').value = '';
+        // Resetting background color to initial settings after guess attempt
+        document.querySelector('body').style.backgroundColor = '#222';
+        
     }
 );
