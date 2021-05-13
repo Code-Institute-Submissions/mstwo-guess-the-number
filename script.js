@@ -16,6 +16,7 @@ document.querySelector('.check').addEventListener(
         // If guess matches with the secretNumber
         } else if (guess === secretNumber) {
             document.querySelector('.message').textContent = '🎉 Wow! Exact number!';
+            // Upon guessing correctly, secretNumber is displayed
             document.querySelector('.number').textContent = secretNumber;
             // Change in style upon winning: both bg & number width
             document.querySelector('body').style.backgroundColor = '#1F2833';
@@ -39,7 +40,7 @@ document.querySelector('.check').addEventListener(
 document.querySelector('.again').addEventListener(
     'click', function() {
         score = 20;
-        // Value reassigned from the let secretNumber variable
+        // Value reassigned to generate a new secretNumber
         secretNumber = Math.trunc(Math.random() * 20) + 1;
         // Resetting the game to the initial settings after guess attempt
         document.querySelector('.message').textContent = 'Start guessing...';
@@ -48,6 +49,7 @@ document.querySelector('.again').addEventListener(
         document.querySelector('.guess').value = '';
         // Resetting background color to initial settings after guess attempt
         document.querySelector('body').style.backgroundColor = '#222';
-        
+        // Resetting guess number width to initial settings after guess attempt
+        document.querySelector('.number').style.width = '15rem';
     }
 );
