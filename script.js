@@ -3,7 +3,7 @@
 // Variable for random numbers between (1 to/and 20) without decimals
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
-let highscore = 0;
+let topscore = 0;
 
 // Check button click
 document.querySelector('.check').addEventListener(
@@ -24,12 +24,12 @@ document.querySelector('.check').addEventListener(
             document.querySelector('body').style.backgroundColor = '#1F2833';
             document.querySelector('.number').style.width = '30rem';
 
-            // Highscore feature
-            if (score > highscore) {
-                // Here the highscore becomes this new current score
-                highscore = score;
-                // Then, display the current highscore
-                document.querySelector('.highscore').textContent = highscore;
+            // Topscore feature
+            if (score > topscore) {
+                // Here the topscore becomes this new current score
+                topscore = score;
+                // Then, display the current topscore
+                document.querySelector('.topscore').textContent = topscore;
             }
 
         // The number is higher or lower than the correct guess
