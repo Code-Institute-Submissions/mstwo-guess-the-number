@@ -6,29 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="A Web based app guessing number game">
     <meta name="author" content="Fabrice Karenzi">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Guess The Number Game</title>
 </head>
-<body>
-    <header>
-        <h1>Guess The Number!</h1>
-        <p class="between">(Between 1 and 20)</p>
-        <button class="btn again">Again!</button>
-        <div class="number">?</div>
+
+<body class="bg-dark">
+    <header class="bg-secondary text-center p-3 mb-5">
+        <h1 class="heading">Guess The Number!</h1>
+        <p class="between ">(Between 1 and 20)</p>
     </header>
-    <main>
-        <section class="left">
-            <input type="number" class="guess" />
-            <button class="btn check">Check!</button>
-        </section>
-        <section class="right">
-            <p class="message">Start guessing...</p>
-            <p class="label-score">⏱ Score: <span class="score">20</span></p>
-            <p class="lebel-highscore">
-                🏆 Highscore: <span class="highscore">0<span>
-            </p>
-        </section>
-    </main>
-    <script src="script.js"></script>
+
+    <div class="container-fluid text-center">
+
+
+        <div class="row">
+
+            <div class="col-lg-3"></div>
+
+            <div class="col-lg-6 mx-auto">
+                <p class="lead text-center">Type In Your Guessing Number</p>
+                <div class="number">?</div>                
+
+                <div>
+                    <input type="number" class="guess text-center" />
+                    <br><br>
+                    <button class="btn check text-center">Check!</button>
+                    <br><br>
+                    <p class="message">Start guessing...</p>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                            <h3 class="label-score">⏱ Score: <span class="score">20</span>
+                            </h3>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h3 class="label-topscore">
+                            🏆 Topscore: <span class="topscore">0</span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <button class="btn again">Again!</button>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-lg-12">
+                        <div class="card card-body bg-secondary">
+                            <h5>Instructions</h5>
+                            <p>Type each guessing number and 'check' to score. Hit the 'Again!' button to play again. Refresh to start over the game.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3"></div>
+            
+        </div>
+
+    </div>
+
+<!-- <script src="script.js"></script> -->
 </body>
 </html>
