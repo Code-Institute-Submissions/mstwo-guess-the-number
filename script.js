@@ -21,7 +21,7 @@ document.querySelector('.check').addEventListener(
             // Upon guessing correctly, secretNumber is displayed
             document.querySelector('.number').textContent = secretNumber;
             // Change in style upon winning: both bg & number width
-            document.querySelector('body').style.backgroundColor = '#1F2833';
+            document.querySelector('body').style.backgroundColor = '#00ff26';
             document.querySelector('.number').style.width = '30rem';
 
             // Topscore feature
@@ -42,7 +42,7 @@ document.querySelector('.check').addEventListener(
                 document.querySelector('.score').textContent = score;
             } else { 
                 // If all fail attempts count the score down to zero
-                document.querySelector('message').textContent = '😥 You lost the game!';
+                document.querySelector('.message').textContent = '😥 You lost the game!';
                 document.querySelector('.score').textContent = 0;
             }
         }
