@@ -13,7 +13,7 @@ document.querySelector('.check').addEventListener(
 
         // Check button click in case of no input
         if (!guess) {
-            document.querySelector('.message').textContent = '🛑 No number!';   
+            document.querySelector('.message').textContent = '🛑 No number! Type in your number.';   
         // If guess matches with the secretNumber
 
         } else if (guess === secretNumber) {
