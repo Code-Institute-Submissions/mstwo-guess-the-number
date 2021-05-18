@@ -21,7 +21,6 @@ document.querySelector('.check').addEventListener(
             // Upon guessing correctly, secretNumber is displayed
             document.querySelector('.number').textContent = secretNumber;
             // Change in style upon winning: both bg & number width
-            document.querySelector('body').style.backgroundColor = '#00ff26';
             document.querySelector('.number').style.width = '30rem';
 
             // Topscore feature
