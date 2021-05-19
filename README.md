@@ -24,16 +24,8 @@ the content easily and with help of eye catching features to attract their atten
 
 ## User stories<br>
 <ul>
-    <li>First Time User Goal</li><br>
-    a. As a first time user to the KafaGym site, I want to have information on the gym services and procedures.<br>
-    b. As a first time user to the KafaGym site, I want to explore more about the site content through navigation.<br><br>
-    <li>Regular users</li><br>
-    a. As a regular user, I want to book a training session with an instructor at KafaGym through logging in my account<br>
-    b. As a regular user, I want to access the eKafaGym app to track my last performance at gym so I can improve today.<br>
-    c. As a first time user to the KafaGym site, I want to be able to sign up for membership and get in touch with organisation.<br>
-    <li>Returning user</li><br>
-    a. As a returning user, I want to find out about training groups and their community links.<br>
-    b. As a returning user, I want to get in touch with the KafaGym organisation with any questions I may need to ask.<br>
+    <li></li><br>
+    
 </ul> 
 
 ### Design<br>
@@ -49,6 +41,9 @@ The web design main target is to provide the user with the ability to interact w
 </ul>
 
 ### Wireframes
+
+The wireframes for the site were created with help of Balsamiq. They feature the site look from different angles i.e computer, mobile phone and tablet views.
+
 * Guess The Number Computer View Wireframe - [wireframe](https://github.com/kafamem/mstwo-guess-the-number/blob/master/docs/wireframes/MS2%20Computer%20View.jpg)
 * Guess The Number Mobile Phone View Wireframe - [wireframe](https://github.com/kafamem/mstwo-guess-the-number/blob/master/docs/wireframes/MS2%20Mobile%20Phone%20View.jpg)
 * Guess The Number Tablet View Wireframe - [wireframe](https://github.com/kafamem/mstwo-guess-the-number/blob/master/docs/wireframes/MS2%20Tablet%20View.jpg)
@@ -58,17 +53,20 @@ The web design main target is to provide the user with the ability to interact w
 
 ### Existing Features
 <ul>
-    <li>The site is responsive on all device sizes.</li><br>
-    <li>Cards on home page are interactive upon hovering.</li><br>
-    <li>The eKafaGym app link on About Us page targets to function after learning about software develpment. For now, it only points to membership sign up page.</li><br>
+The site layout consists of three main areas:<br><br>
+    <li>The header that shows the name and the purpose of the site.</li><br>
+    <li>The game area which consits of secret number area where the hidden number is represented by the question mark. It is in this area where the guessed number shows up after a correct match. This styling in this regards also changes from 15rem for the initial and deafult settings to 30rem width after guessing right.<br>
+    <li>The input area serves for typing the number. The user can type in or scroll up and down to choose the number. Under this area, is the check button to submit the input for comparison and get the feedback. 
+    </li><br>
+    <li>The site also includes the 'Attempt' and 'Topscore' features. The Attempt feature which is a counting down from twenty down to zero, shows the user how many times they have tried to reach the perfect match. In case of failure i.e the last attempt equals to zero; then the 'You lost the game' message pops up. On the other hand, the Topscore feature keeps the highest score so far reached.</li><br>
+    <li>The 'Again' which is under the attempt and topscore features servers for starting the game session without losing track of the topscore. The game is to reset to the initial settings but keeping the topscore. However, upon refreshing the page the game will start from scratch.</li>
+    <li>The last area is the instruction which guide the user on how to play the game.</li>
 </ul>
 
 ### Features Left to implement
 <ul>
-    <li>Upon completing the JavaScript module, I hope to bring the site more to life through the design and use of interactive features.</li><br>
-    <li>The showcase background picture on home which is now fixed will be replaced by a JavaScript slider function to allow a quick scan of site content but at the same time creating an interactive site function.<br>
-    <li>JavaScript will all also intervene in creating an interchangeable sign up vs. log in functionalities. It should be noted that the sign up form and log in point to nowhere at this stage as there is a need for backend design to ensure a fully functional sign up and log in form.<br> 
-    <li>Contact us form does not go beyond what is displayed on Contact Us page as well since there is a need for backend design.<br>
+    <li>To better improve the game I plan to add on levels of difficulty where the user will be challenged to choose between easy and hard levels.</li><br>
+
 </ul>
 
 ## Technologies used
@@ -77,23 +75,22 @@ The web design main target is to provide the user with the ability to interact w
 
 * HTML5
 * CSS3
+* JavaScript
 
-### Framework, Libraries, Websites & Programs Used
+
+### Framework, Libraries, Websites & Tools Used
 
 1. [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/):
     - Bootstrap was used to ensure the responsiveness and styling of the website.
-1. [Font Awesome](https://fontawesome.com/icons?d=gallery&m=free)
-    - Font Awesome was used to add attractive icons.
+
 1. [Google Fonts](https://fonts.google.com/)
     - Google fonts were used to import the 'Roboto and Sans-Serif' fonts used for typography.
-1. [jQuery](https://jquery.com/)
-    - jQuery was installed with Bootstrap to make the navbar responsive.
+
 1. [Git](https://git-scm.com/)
     - For version control, Git was used mainly to commit with help of Gitpod terminal and Push to GitHub.
 1. [GitHub](https://github.com/)
     - GitHub is used for storing the code pushed from Git.
-1. [Illustrator](https://www.adobe.com/ie/products/illustrator.html)
-    - Adobe Illustrator was used to create the logo.
+
 1. [Balsamiq](https://balsamiq.com/)
     - Balsamiq was used to create the website home page [wireframe](https://github.com/kafamem/msone-kafagym/blob/master/assets/images/Landing%20page.png) during the design process.
 1. [Befunky](https://www.befunky.com/create/resize-image/)
@@ -106,41 +103,14 @@ The web design main target is to provide the user with the ability to interact w
 In order to check the validity of the website code, the W3C Markup Validator and W3C CSS Validator were used on each page of the website to check the syntax errors.
 * https://validator.w3.org/
 * https://jigsaw.w3.org/css-validator/
+* 
 
 ### Testing User Stories from User Experience (UX)
-1. First Time User Goal
-   1. As a user to the KafaGym site, I want to have information on the gym services and procedures.
-        - Once the website home page is opened, a welcoming page with different sections is displayed. There is navigation bar that includes the KafaGym logo and the links leading to various pages.
-        - The showcase image welcomes the user via the gym slogan and button link calling the user to become a member by click the Getting Started button pointing to the sign up page.
-        - The user can also find out more about the sport types that are offered by clicking 'Learn more' on each of these found under Our programs (card area).
-        * Easy navigation of the content - [screenshot](https://github.com/kafamem/msone-kafagym/blob/master/assets/images/homepage-showcase-user-story.jpg)
 
-   1. As a first time user to the KafaGym site, I want to explore more about the site content through navigation.
-        - The website layout is clear and simple to navigate. The navigation links make it easier for the user to know what kind of content expected upon clicking them.
-        - The card area give a quick piece of information about each sport type while the footer provides the information about the gym location, opening hours as well as the subscription to newsletter.
-   1. As a first time user to the KafaGym site, I want to be able to sign up for membership and get in touch with organisation. 
-        - The site provides options for sign up for potential members under the link 'Sign Up/In'. However, the form does not go beyond as it is not yet linked with the back end functionalities. User can also contact the organisation by filling 
-          the 'Contact Us' form under the link 'Contact Us'; this is yet to be linked to the backend functionalities as well.
-        * Membership subscription - [screenshot](https://github.com/kafamem/msone-kafagym/blob/master/assets/images/membership-subscription.jpg)
-1. Regular User
-    1. As a regular user, I want to book a training session with an instructor at KafaGym through logging in my account
-        - Regular users will have the options to log in and book sessions after the creation of login form.
-    1. The developer anticipates to create an app that will help gym members to track their training progress.
-1. Returning user
-    1. As a returning user, I want to find out about training groups and their community links.
-        - The site provides social links that will allow the gym community to stay connected and at the same increasing the gym visibility.
-        * Community links - [screenshot](https://github.com/kafamem/msone-kafagym/blob/master/assets/images/community-links.jpg)
-    1. As a returning user, I want to get in touch with the KafaGym organization with any questions I may need to ask.<br>
-        - The site provides its user with the possibility to communicate with the gym organization via contact form.
-        * Interaction with organization - [screenshot](https://github.com/kafamem/msone-kafagym/blob/master/assets/images/interaction-with-organization.jpg)
-
+...
 ### Further Testing
 * The website was tested through different browsers; Google Chrome, Mozilla Firefox, Microsoft Edge and Safari browsers.
 * The website was viewed through various devices including iPhone7 and iPad, large screen and laptop to check it responsiveness.
-* Pages were tested to ensure that they function correctly in order to allow an effective the navigation. The back and next buttons respond correctly on the website.
-
-### Known Bugs
-* Due to time constraints, the sport page under the link 'Sports' was not styled as I wanted it to appear though it's fully functional.
 
 ## Deployment
 
@@ -154,27 +124,19 @@ The following steps were followed to deploy the project to GitHub Pages:
 1. The page will automatically refresh.
 1. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-### Gitpod workspace
-In order to deal with coding, I use Gitpod workspace. 
-1. After logging in to Gitpod, I choose the 'kafamem/msone-kafagym' workspace.
-1. Then I click 'Start' button adjacent to the workspace name. Then the workspace name opens the project design interface. This has terminals, coding area as well as the preview mode.
+### Workspace
+In order to write wode, I use Gitpod IDE. 
+1. After logging in to Gitpod, I choose the 'kafamem/mstwo-guess-the-number' workspace.
+1. Then, I select open from adjacent three dots. Then the workspace name opens the project design interface. This has terminals, coding area as well as the preview mode.
 
 ## Credits
 
 ### code
 * [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/): Bootstrap Library was used to ensure the responsiveness of the website.
-* The entire gallery page code to was added bootstrap was copied from [W3schools](https://www.w3schools.com/) but customized to meet the requirements of the website design.
-* The about us page design idea was from Traversy Media tutorials via Acme Web Design project.
+
 ### content
 * All the text content was written by the developer.
-### Media
-* The photos used in this project were downloaded from [Shutterstock](https://www.shutterstock.com/), resized and retouched to meet the website needs.
+
 ### Acknowledgements
-* My mentor for her helpful guidance.  
+* My mentor for his technical guidance.  
 * Tutor support at Code Institute their technical intervention.
-* I was inspired by a number of projects:
-  * [Templatemonsterpreview](https://www.templatemonsterpreview.com/demo/58939.html) for layout idea.
-  * Beyond Bootstrap lecture as mini project from Code Insitute.
-  * Traversy Media Tutorials.
-
-
