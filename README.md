@@ -6,7 +6,8 @@ Welcome to [Guess The Number](https://kafamem.github.io/mstwo-guess-the-number/)
 
 ## Project rationale
 
-The KafaGym project aimed at creating a website for business that targets gym members as site's users.
+This website is designed to help users play by guessing the hidden number.
+
 The main idea is to provide potential members with the needed information to better know 
 about the gym and what are the procedures. These procedures involve becoming members and get to 
 know how the gym works.
