@@ -37,26 +37,21 @@ the content easily and with help of eye catching features to attract their atten
 </ul> 
 
 ### Design<br>
+The web design main target is to provide the user with the ability to interact with the game. The layout consists of features and elements that allows the user to navigate and use the site. 
 <ul>
     <li>Colour Scheme</li><br>
-    - Three main colours (white, orange and dark grey) were used throught the entire design process of the site. Their combination originated from the branding logo KafaGym
-    which is a gym logo from shutterstock customized to meet the KafaGym needs with help of Ai (Adobe Illustrator) where the coined word 'Kafa' was made out of two syllables <br>
-    word with 'Ka' standing for 'Karenzi' and 'Fa' standing for 'Fabrice'; the names of the site developer then the word gym.<br><br>
+    - The dominating color throughout the entire layout is dark grey which is combined with light grey color used for header and the instruction card area. In order to make the text content stand out, I used the orange color which created a harmonious combination for both text and buttons background color.<br><br>
     <li>Typography</li><br>
-    - The Roboto font is the main font used for the entire website with Sans Serif as the backup font in case Roboto font does not respond correctly.<br>
-    The Roboto font looks nicer on web pages.<br><br>
-    <li>Imagery</li><br>
-    The site was designed with high resolution images to make it look attractive. The logo designed with help of Ai was <br>created with a transparent background
-    and is a vector based logo which makes it adjustable to various 'witdh' values without losing its original resolution.<br>
+    - The 'Press Start 2P' is the main font that was used while 'Sans Serif' was kept as backup font in case 'Press Start 2P' fails to respond effectively. The two typographies were fetched from google fonts. I found 'Press Start 2P' friendly for games design.<br><br>
+    <li>Emoji Icons</li><br>
+    - Five emoji icons were used in JavaScript code in order to accompany the user anticipated feelings upon guessing right or wrong in relation to the secret number and from the html 'Attempt' and 'Score' elements.<br>   
+
 </ul>
 
 ### Wireframes
-* Home Page Wireframe - [wireframe](https://github.com/kafamem/msone-kafagym/blob/master/assets/images/Landing%20page.png)
-* About Us Page Wireframe - [wireframe](https://github.com/kafamem/msone-kafagym/blob/master/assets/images/about-us%20-%20desktop%20%26%20mobile%20views.png)
-* Gallery Page Wireframe - [wireframe](https://github.com/kafamem/msone-kafagym/blob/master/assets/images/gallery%20-%20desktop%20%26%20mobile%20views.png)
-* Sports Page Wireframe - [wireframe](https://github.com/kafamem/msone-kafagym/blob/master/assets/images/sports%20-desktop%20%26%20mobile%20views.png)
-* Sign Up/In Page Wireframe - [wireframe](https://github.com/kafamem/msone-kafagym/blob/master/assets/images/sign%20up%20-%20desktop%20%26%20mobile%20views.png)
-* Contact Us Wireframe - [wireframe](https://github.com/kafamem/msone-kafagym/blob/master/assets/images/contact%20us%20-%20desktop%20%26%20mobile%20views.png)
+* Guess The Number Computer View Wireframe - ![wireframe](https://github.com/kafamem/mstwo-guess-the-number/blob/master/docs/wireframes/MS2%20Computer%20View.jpg)
+* Guess The Number Mobile Phone View Wireframe - ![wireframe](https://github.com/kafamem/mstwo-guess-the-number/blob/master/docs/wireframes/MS2%20Mobile%20Phone%20View.jpg)
+* Guess The Number Tablet View Wireframe - ![wireframe](https://github.com/kafamem/mstwo-guess-the-number/blob/master/docs/wireframes/MS2%20Tablet%20View.jpg)
 
 
 ## Features
