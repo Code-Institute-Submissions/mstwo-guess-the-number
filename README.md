@@ -1,25 +1,28 @@
 # Guess The Number
 
-
-
 Welcome to [Guess The Number](https://kafamem.github.io/mstwo-guess-the-number/)
+
+![MS2 Responsiveness.JPG](https://github.com/kafamem/mstwo-guess-the-number/blob/master/docs/images/MS2%20Responsiveness.JPG)
 
 ## Project rationale
 
-This website is designed to help users play by guessing the hidden number.
+This website is designed to help users play by guessing the hidden number. The game consists of guessing the hidden number by type in the guess one ranging between 1 and 20.<br>
 
-The main idea is to provide potential members with the needed information to better know 
-about the gym and what are the procedures. These procedures involve becoming members and get to 
-know how the gym works.
+# Contents
 
-Therefore, at KafaGym our interest is to attract members and retain them through the provision of a better service as documented on the website.<br>
+1. User Experience
+2. Features
+3. Technologies
+4. Testing
+5. Deployment.
+6. Credits
 
-## User Experience (UX)
+# User Experience (UX)
 
 The website seeks to attract potential members at KafaGym. It has been designed in such way that its visitors will be able to navigate the 
 the content easily and with help of eye catching features to attract their attention hence motivate their participation.
 
-### User stories<br>
+## User stories<br>
 <ul>
     <li>First Time User Goal</li><br>
     a. As a first time user to the KafaGym site, I want to have information on the gym services and procedures.<br>
