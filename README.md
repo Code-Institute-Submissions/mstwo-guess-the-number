@@ -8,14 +8,6 @@ Welcome to [Guess The Number](https://kafamem.github.io/mstwo-guess-the-number/)
 
 This website is designed to help users play by guessing the hidden number. The game consists of guessing the hidden number by type in the guess one ranging between 1 and 20. Then, check if the input is correct.<br>
 
-# Contents
-
-1. [User Experience](#User-Experience-(UX))
-2. [Features](##Features)
-3. [Technologies Used](##Technologies-used)
-4. [Testing](##Testing)
-5. [Deployment](##Deployment)
-6. [Credits](##Credits)
 
 # User Experience (UX)
 
